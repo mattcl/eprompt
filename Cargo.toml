@@ -1,0 +1,8 @@
+[package]
+name = "eprompt"
+version = "0.1.0"
+authors = ["Matt Chun-Lum"]
+
+[dependencies]
+error-chain = "0.4"
+tempfile = "2.1.4"
