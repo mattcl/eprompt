@@ -11,8 +11,8 @@ use tempfile::NamedTempFile;
 
 error_chain! {
     foreign_links {
-        std::env::VarError, Var;
-        io::Error, IoError;
+        Var(std::env::VarError);
+        IoError(io::Error);
     }
 
     errors {

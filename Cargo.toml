@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["Matt Chun-Lum"]
 
 [dependencies]
-error-chain = "0.4"
+error-chain = "0.7.2"
 tempfile = "2.1.4"
